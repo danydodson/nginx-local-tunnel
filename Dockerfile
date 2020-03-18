@@ -1,4 +1,5 @@
 FROM ubuntu:16.04
+
 # Default password, overwrite with "docker build ... --build-arg ROOTPW=password"
 ARG ROOTPW=root
 
